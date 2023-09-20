@@ -10,3 +10,9 @@ describe('template spec', () => {
     cy.visit('https://www.amazon.com.br/')
   })
 })
+
+describe('All true', () => {
+  it('Pass', function () {
+    expect('Olá imbecil').to.equal('Olá imbecil')
+  })
+})
